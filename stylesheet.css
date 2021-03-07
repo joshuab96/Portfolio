@@ -1,0 +1,11 @@
+.header {
+    outline: 1px black solid;
+    display: inline-block;
+    background: navy;
+    color: white;
+}
+
+.navigation {
+    list-style-type: none;
+    
+}
