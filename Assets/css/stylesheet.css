@@ -1,0 +1,65 @@
+body {
+background-color: grey;
+}
+
+.header {
+    outline: 1px lightgray;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: black;
+    width: 100%;
+    
+}
+
+header h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    background-color: black;
+
+}
+
+.navigation li:hover {
+    background-color: rgb(38, 106, 233);
+    transition-duration: 0.5s;
+    cursor: default;
+}
+
+.navigation li  {
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px 160px 30px 30px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: 2px 5px;
+    border-radius: 25px;
+}
+
+/*Main Section*/
+
+div #flex {
+display: flex;
+}
+
+section .aside {
+    flex-basis: 30%;
+    height: 20%;
+    margin: 10px;
+    border: 1px black solid;
+    display: inline-block;
+
+}
+section #section-1 {
+    flex-basis: 50%;
+    height: 20%;
+    margin: 10px;
+    border: 1px black solid;
+    display: inline-block;
+}
+
