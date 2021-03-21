@@ -94,21 +94,24 @@ justify-content: space-evenly;
 }
 
 .section-2-projects {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     flex-basis: 65%;
-    height: 500px;
+    height: 700px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 10px;
     border: black 1px solid;
     box-sizing: border-box;
 }
 
 .projectImage {
-    width: 200px;
-    height: 200px;
+    width: 290px;
+    height: 260px;
     object-fit: cover;
     border: solid black 1px;
+    margin: 20px;
 }
 
