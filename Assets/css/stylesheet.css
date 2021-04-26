@@ -108,12 +108,13 @@ justify-content: space-around
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 70%;
-    height: 730px;
+    height: 1200px;
     padding: 20px;
     margin: 10px;
     border: black 1px solid;
     border-radius: 50px 50px 0px 0px;
     box-sizing: border-box;
+
 }
 
 .section-2-projects p {
@@ -122,6 +123,11 @@ justify-content: space-around
     font-size: 20px;
     padding: 5px;
     text-align: center;
+}
+
+.section-2-projects a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .projectImages {
@@ -174,6 +180,57 @@ justify-content: space-around
     cursor: default;
 }
 
-/* @media (max-width: 768px) { */
+/* for mobile device viewing */
+@media (max-width: 480px) {
+    .header {
+        outline: 1px lightgray;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-color: black;
+        color: #e5e5e5;
+        width: 215%;
+        margin-bottom: 35px;
+    }
+
+    #aside-1 {
+        flex-basis: 25%;
+        height: 20%;
+        margin: 10px;
+        padding-bottom: 20px;
+        border-right: hidden;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        text-align: right;
+        box-sizing: border-box;
+        padding-right: 15px;
+    
+    }
+
+    #aside-2 {
+        flex-basis: 25%;
+        height: 20%;
+        margin: 10px;
+        padding-bottom: 20px;
+        border-right: hidden;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        text-align: right;
+        box-sizing: border-box;
+        padding-right: 15px;
+    }
+
+    .bottomFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 25px;
+        width: 215%;
+        height: 110px;
+        margin-top: 100px;
+        background-color: black;
+    }
+    
     
 }
